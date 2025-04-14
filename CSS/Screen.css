@@ -1,0 +1,237 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: url("../images/connor-moynihan-NgAevHDjYQw-unsplash.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+  background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #ddd;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#search-form {
+  margin: 1rem 0;
+}
+
+#search-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#search-form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#search-form button:hover {
+  background: #0056b3;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 0;
+  background: #444;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #4CAF50;
+  text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Section Styles */
+section {
+  background-color: #fff;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center; /* Center-align the headers */
+}
+
+section p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Testimonials section */
+#testimonials blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid #007bff;
+  margin: 1rem 0;
+  padding: 1rem;
+  font-style: italic;
+}
+
+#testimonials cite {
+  display: block;
+  margin-top: 0.5rem;
+  text-align: right;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Rating Form Styles */
+#rating form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#rating input[type="radio"] {
+  margin-right: 10px;
+}
+
+#rating button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+#rating button:hover {
+  background-color: #45a049;
+}
+
+/* Newsletter form */
+#newsletter form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#newsletter input[type="email"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+#newsletter button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#newsletter button:hover {
+  background: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  section {
+    margin-bottom: 20px;
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Climbers Haven</title>
+    <link rel="stylesheet" href="CSS/Screen.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Climbers Haven</h1>
+      <p>Your ultimate hub for climbing adventures, tips, and community.</p>
+      <!-- Search bar -->
+      <form id="search-form">
+        <input type="text" placeholder="Search..." aria-label="Search" />
+        <button type="submit">Search</button>
+      </form>
+      <!-- Dark       <!-- Dark mode toggle -->
+      <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Routes</a></li>
+        <li><a href="#">Tips</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="about">
+        <h2>About Climbers Haven</h2>
+        <p>
+          Climbers' Haven is a global, community-driven platform dedicated to
+          all things climbing. Whether you're scaling granite faces, training in
+          bouldering gyms, or summiting snowy peaks, we’re here to support your
+          passion and help you discover new vertical frontiers.
+        </p>
+      </section>
+
+      <section id="community">
+        <h2>Join the Climbing Tribe</h2>
+        <p>
+          Looking to connect with fellow climbers, join thrilling trips, or show
+          off your latest send? Whether you're looking to swap stories, find
+          your next adventure, or celebrate your victories, our vibrant forum
+          and events board make it easy to meet climbers from every corner of
+          the globe. Share your journey, learn from others, and get inspired to
+          push your limits!
+        </p>
+      </section>
+
+      <section id="adventures">
+        <h2>Explore Routes & Adventures</h2>
+        <p>
+          Uncover hidden climbing gems and iconic routes just waiting to be
+          explored. Whether you're tackling rugged limestone crags or conquering
+          breathtaking alpine ridges, we provide in-depth route descriptions,
+          honest user ratings, and essential safety tips to ensure every
+          adventure is both thrilling and safe.
+        </p>
+      </section>
+
+      <section id="rating">
+        <h2>Rate Your Experience</h2>
+        <p>How would you rate your visit to Climbers Haven?</p>
+        <form>
+          <label>
+            <input type="radio" name="rating" value="5" /> ⭐⭐⭐⭐⭐ </label
+          ><br />
+          <label>
+            <input type="radio" name="rating" value="4" /> ⭐⭐⭐⭐ </label
+          ><br />
+          <label> <input type="radio" name="rating" value="3" /> ⭐⭐⭐ </label
+          ><br />
+          <label> <input type="radio" name="rating" value="2" /> ⭐⭐ </label
+          ><br />
+          <label> <input type="radio" name="rating" value="1" /> ⭐ </label
+          ><br />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <!-- Testimonials section -->
+      <section id="testimonials">
+        <h2>What Our Climbers Say</h2>
+        <blockquote>
+          <p>
+            "Climbers Haven has completely transformed my climbing experience.
+            The community is amazing!"
+          </p>
+          <cite>- Alex H.</cite>
+        </blockquote>
+        <blockquote>
+          <p>
+            "The route descriptions and safety tips are top-notch. Highly
+            recommend!"
+          </p>
+          <cite>- Jamie L.</cite>
+        </blockquote>
+      </section>
+
+      <!-- Newsletter subscription form -->
+      <section id="newsletter">
+        <h2>Stay Updated</h2>
+        <p>
+          Subscribe to our newsletter for the latest climbing news and tips.
+        </p>
+        <form>
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Climbers Haven | Climb high, stay safe!</p>
+    </footer>
+  </body>
+</html>
